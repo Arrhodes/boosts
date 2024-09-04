@@ -1,0 +1,7 @@
+*.mp4
+*.npy
+*.pdf
+*.hdf5
+*.pyc
+*.venv
+jax-metal/
