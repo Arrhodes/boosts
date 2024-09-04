@@ -86,9 +86,9 @@ def plot_all_plots():
     fig_poly_tmatrix_element.plot(radius, incident_pw.k_list) 
    
     # # * Plot momentum transfer via boosted tmatrix
-    # incident_pw_for_tmat = initialize_pulse(150) # 150
-    # jay_max_for_lab_frame_transfer = 6
-    # fig_momentum_transfer_via_boosted_tmat.plot(incident_pw_for_tmat, jay_max_for_lab_frame_transfer, radius)
+    incident_pw_for_tmat = initialize_pulse(150) # 150
+    jay_max_for_lab_frame_transfer = 6
+    fig_momentum_transfer_via_boosted_tmat.plot(incident_pw_for_tmat, jay_max_for_lab_frame_transfer, radius)
     
 
 if __name__ == "__main__":
